@@ -1,0 +1,281 @@
+abody {
+  background-color: #f1f6f9 !important;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+@font-face {
+  font-family: Baxter Sans Bold;
+  src: url(Baxter-Bold.ttf);
+}
+
+main{
+position: relative;
+
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+/* login box */
+#loginCol {
+  font-family: "Baxter Sans Bold", Helvetica, Arial, sans-serif;
+  border-style: solid;
+  border-color: #5956DB !important;
+  border-radius: 5px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 20px;
+  overflow: auto;
+  background-color: #FFFFFF !important;
+}
+
+/* navigation bar */
+
+.navbar-main {
+    background: #4365e2 none repeat scroll 0 0;
+}
+
+.navbar-header {
+    float: left;
+}
+
+.navbar-site a {
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+.navbar-brand {
+    float: left;
+}
+
+.navbar-brand {
+    padding: 18.5px 15px 20.5px;
+}
+
+.navbar-right {
+    float: right !important;
+    margin-right: -15px;
+}
+
+.navbar-main .nav {
+    font-size: 1.25em;
+}
+
+.navbar-main .nav {
+    margin-top: 23px;
+    text-shadow: none;
+}
+
+.navbar-nav>li {
+    float: left;
+}
+
+.nav>li {
+    display: block;
+    position: relative;
+}
+
+.navbar-fixed-top .navbar-main .nav li a::after,
+.navbar-fixed-notapplied .navbar-main .nav li a::after {
+    display: none !important;
+}
+
+.js .navbar-main .nav li a::after {
+    display: block;
+}
+
+.navbar-main .nav li a::after {
+    transition: all 0.2s linear 0s;
+}
+
+.navbar-main .nav li a {
+    color: #fff !important;
+    transition: all 0.2s linear 0s;
+}
+
+.navbar-main .nav li a:hover {
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.navbar-main .nav>li>a {
+    padding: 10px 17px;
+}
+
+/* colums for the dashboard */
+.column {
+  font-family: "Baxter Sans Bold", Helvetica, Arial, sans-serif;
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* buttton-promary1 */
+.btn-primary1{
+    background: #fa1b1b none repeat scroll 0 0;
+    border: 1px solid #fa1b1b;
+    color: #fff;
+}
+
+.btn1 {
+  font-family: "Baxter Sans Bold", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  padding: 10px;
+}
+
+.btn-primary:hover, .btn-primary:focus{
+
+  background: #4365e2 none repeat scroll 0 0 !important;
+
+  border-color: #4365e2 !important;
+
+  color: #fff;
+
+}
+
+.title{
+  font-family: "Baxter Sans Bold", Helvetica, Arial, sans-serif;
+}
+
+.likert li {
+    float: center;
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* buttton-promary */
+.btn-primary{
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #4365e2;
+  color: #4365e2;
+}
+
+.btn {
+  font-family: "Baxter Sans Bold", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  padding: 10px;
+}
+
+.btn-primary:hover, .btn-primary:focus{
+  background: #4365e2 none repeat scroll 0 0 !important;
+  border-color: #4365e2 !important;
+  color: #fff;
+}
+
+.questionArea {
+  border-style: solid;
+  border-radius: 5px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 20px;
+  overflow: auto;
+  background-color: #9ba4b4 !important;
+  border-color: #394867 !important;
+}
+
+.app-title {
+
+    text-align: center;
+
+    font-weight: normal;
+
+    font-size: 2.6rem;
+
+}
+
+
+
+.card {
+
+    max-width: 650px;
+
+    padding: 20px;
+
+    margin: 30px auto;
+
+    background-color: #fff;
+
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+
+    overflow: hidden;
+
+}
+
+
+
+    .card h4 {
+
+        margin: 0 0 6px 0;
+
+    }
+
+
+
+.title-question {
+
+    font-size: 2rem;
+
+    font-weight: normal;
+
+    margin: 0 0 1rem 0;
+
+}
+
+
+.footer {
+
+    font-size: 0.7rem;
+
+    color: #888;
+
+    text-align: center;
+
+    margin: 0;
+
+}
+
+
+
+.answer-text {
+
+    resize: vertical;
+
+}
+
+#bodyQuestion {
+  font-family: sans-serif;
+
+  background-color: #dedede;
+
+  color: #333;
+
+  padding: 0px 0 28px 0;
+
+  margin: 0;
+}
+
+.padTheTextbox {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+#testerlol {
+}
